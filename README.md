@@ -20,13 +20,13 @@ This project simulates an emergency room's patient management system using a pri
 
 ## Getting Started
 To run the simulation, follow these steps:
-1. Clone this repository: `git clone https://github.com/yourusername/emergency-room-simulation.git`
-2. Navigate to the project directory: `cd emergency-room-simulation`
+1. Clone this repository: `git clone https://github.com/yourusername/hospital-prio-que.git`
+2. Navigate to the project directory: `cd hospital-prio-que`
 3. Run the simulation: `python main.py`
 
 ## Project Structure
 - `main.py`: The main script to run the simulation.
-- `priority_queue.py`: Contains the implementation of the priority queue data structure.
+- `hosptial.py`: Contains the implementation of the priority queue data structure.
 - `README.md`: This documentation file.
 
 ## Code Explanation
