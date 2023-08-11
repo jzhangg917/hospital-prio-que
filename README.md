@@ -33,13 +33,19 @@ In emergency situations, managing patients efficiently is crucial. This simulati
     git clone https://github.com/yourusername/emergency-room-simulation.git
     ```
 
-2. **Navigate to the Project Directory:**
+2. **Install matplotlab:**
+
+    ```
+    pip install matplotlib
+    ```
+
+3. **Navigate to the Project Directory:**
 
     ```bash
     cd emergency-room-simulation
     ```
 
-3. **Run the Simulation:**
+4. **Run the Simulation:**
 
     ```bash
     python main.py
