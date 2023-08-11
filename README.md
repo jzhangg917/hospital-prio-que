@@ -1,56 +1,86 @@
 # Emergency Room Simulation
 
-A simulation of an emergency room management system using a priority queue.
+Welcome to the Emergency Room Simulation project! This simulation showcases an emergency room's patient management system using a priority queue data structure. Patients are admitted and treated based on their medical urgency, providing an insightful demonstration of real-world hospital scenarios.
 
 ## Table of Contents
+
 - [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Code Explanation](#code-explanation)
-- [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributions and Future Enhancements](#contributions-and-future-enhancements)
-- [About Me](#about-me)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributions](#contributions)
+- [About the Author](#about-the-author)
 - [Contact Information](#contact-information)
 - [License](#license)
 
 ## Introduction
-This project simulates an emergency room's patient management system using a priority queue. Patients are admitted based on their medical urgency and treated accordingly. The priority queue ensures efficient patient handling in emergency scenarios.
 
-## Getting Started
-To run the simulation, follow these steps:
-1. Clone this repository: `git clone https://github.com/yourusername/hospital-prio-que.git`
-2. Navigate to the project directory: `cd hospital-prio-que`
-3. Run the simulation: `python main.py`
-
-## Project Structure
-- `main.py`: The main script to run the simulation.
-- `hosptial.py`: Contains the implementation of the priority queue data structure.
-- `README.md`: This documentation file.
-
-## Code Explanation
-The simulation uses a priority queue to manage patients' admission and treatment. Patients are objects with attributes like name, condition, and priority. The priority queue ensures that patients with higher medical urgency are treated first.
-
-## Technologies Used
-- Python
+In emergency situations, managing patients efficiently is crucial. This simulation project offers an interactive way to understand how a priority queue can optimize patient admission and treatment. The system is designed to ensure that patients with higher medical urgency are treated promptly, potentially saving lives.
 
 ## Features
-- Patient admission based on medical urgency.
-- Treatment of patients based on priority.
-- Simulation of an emergency room scenario.
+
+- **Priority Queue Management:** Patients are handled using a priority queue, ensuring that urgent cases receive immediate attention.
+- **Realistic Simulation:** The simulation emulates real-world hospital scenarios, including patient admission and treatment.
+- **Code Example:** The code demonstrates the implementation of a priority queue and its application in a practical use case.
+
+## Getting Started
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/emergency-room-simulation.git
+    ```
+
+2. **Navigate to the Project Directory:**
+
+    ```bash
+    cd emergency-room-simulation
+    ```
+
+3. **Run the Simulation:**
+
+    ```bash
+    python main.py
+    ```
 
 ## Usage
-Follow the steps in the "Getting Started" section to run the simulation. Sample outputs and patient treatment scenarios will be displayed.
 
-## Contributions and Future Enhancements
-Contributions are welcome! Feel free to fork this repository and submit pull requests. Future enhancements could include a graphical interface, additional patient attributes, and more complex treatment algorithms.
+Run the simulation as outlined in the "Getting Started" section. The simulation will guide you through patient admission and treatment, showcasing the efficiency of the priority queue-based system.
 
-## About Me
-I am a passionate programmer with a keen interest in data structures, algorithms, and software development.
+## Project Structure
+
+- `main.py`: The main script to execute the simulation.
+- `priority_queue.py`: Contains the priority queue data structure implementation.
+- `README.md`: This documentation file.
+
+## Technologies Used
+
+- **Python:** The simulation is built using the Python programming language.
+
+## Contributions
+
+Contributions to enhance this project are welcome! Here are some areas for improvement:
+
+- **User Interface Enhancement:** Add graphical elements for a more immersive experience.
+- **Additional Patient Attributes:** Expand patient attributes to enhance realism.
+- **Algorithm Optimization:** Implement more advanced algorithms for patient prioritization.
+
+Feel free to fork the repository and submit pull requests with your improvements.
+
+## About the Author
+
+I'm a dedicated programmer with a passion for data structures, algorithms, and software development. This project showcases my skills and creativity in solving real-world problems using programming concepts.
 
 ## Contact Information
-Feel free to reach out to me via email at zhangj917business@gmail..com.
+
+You can reach me at zhangj917business@gmail.com. Feel free to connect on [LinkedIn](https://www.linkedin.com/in/jackyzhang802/) as well.
 
 ## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
+
+This project is licensed under the [MIT License](LICENSE). Your feedback and contributions are greatly appreciated!
+
+---
+
+Thank you for exploring the Emergency Room Simulation project. I hope this simulation helps you understand the significance of priority queue-based patient management in critical situations.
